@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#news{
+    text-align: center;
+    padding: 70px 150px 70px 150px;
+}
+#news>header>h1 {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+}
+#news>header>h2 {
+    color: #888;
+    line-height: 27px;
+    padding-bottom: 70px;
+
+}
+#news article{
+    background-color: #f2F4F8;
+    padding: 20px;
+    margin-bottom: 70px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#news article img{
+    margin-bottom: 10px;
+}
+#news article h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #222;
+    margin-bottom: 30px;
+
+}
+#news article p{
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 40px;
+   padding: 10px;
+   line-height: 1.9;
+}
+
+#news article p a{
+    padding: 10px;
+}
+
+#news article {
+    /* background-color: #999; */
+    margin: 10px;
+    width: 400px;
+    float: left;
+    padding-bottom: 15px;}
+
+#news article img{
+width: 100%;
+margin-bottom: 10px;
+}
+#news article a.btn {
+/* background-color: blue; */
+color: white;
+text-decoration: none;
+font-size: 11px;
+font-weight: 600;
+padding: 15px 30px;
+border-radius: 40px;
+background-image: linear-gradient( 90deg, #21d397, #7450fe );
+letter-spacing: 1px;
+transition: 0.5s;
+/* margin-top: 100px; */
+}
+#news article a.btn:hover{
+background-position: -145px 0px;
+}
